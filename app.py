@@ -6,7 +6,7 @@ from io import BytesIO
 
 # --- Configuração da Página ---
 st.set_page_config(
-    page_title="Analisador de Artigos com Escala PEDro - Para Juinha",
+    page_title="Analisador de Artigos com Escala PEDro - Julia Takieddine",
     page_icon="🔬",
     layout="wide"
 )
@@ -113,8 +113,8 @@ def analyze_with_gemini(text, api_key):
 
 # --- Interface do Usuário (Streamlit) ---
 
-st.title("🔬 Analisador de Artigos Científicos (PEDro)")
-st.markdown("Faça o upload de um artigo em PDF para analisá-lo com a **Escala PEDro** usando a IA do Google Gemini.")
+st.title("🔬 Analisador de Artigos Científicos (PEDro) - Julia Takieddine")
+st.markdown("Faça o upload de um artigo em PDF para analisá-lo com a **Escala PEDro** com uma visão psicológica usando a IA do Google Gemini.")
 
 # Coluna para inputs
 st.sidebar.header("Configurações")
