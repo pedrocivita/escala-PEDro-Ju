@@ -109,7 +109,7 @@ escala-PEDro-Ju/
 
 The application follows a modular design:
 
-1. **PDF Processing Module**: Handles file upload and text extraction with a 28,000 character limit for optimal API performance
+1. **PDF Processing Module**: Handles file upload and text extraction with a 28,000 character limit to ensure optimal API performance and stay within token constraints
 2. **AI Analysis Module**: Constructs detailed prompts and manages communication with Google's Gemini API
 3. **User Interface Module**: Provides an intuitive Streamlit-based interface for user interaction
 
